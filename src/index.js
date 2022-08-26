@@ -50,8 +50,8 @@ window.addEventListener('resize', event => {
 
 // click with alert -8
 
-document.querySelector('.logo-heading').addEventListener('click', event => {
-    alert(`a click happened on the h1`)
+document.addEventListener('click', event => {
+    alert(`a click happened on the ${event.target}`)
 })
 
 // select -9 
